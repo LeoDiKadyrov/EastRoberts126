@@ -10,18 +10,24 @@
             <p class="text-white font-medium font-sans w-5/12 text-xs mb-2">Comforts: Wi-Fi, comfortable common living area, dining room, complete kitchen and bathroom</p>
             <p class="text-white font-medium font-sans w-5/12 text-xs">East Roberts Ave 126. - Wildwood, New Jersey, 08260</p>
         </div>
-        <div class="bg-black text-white flex">
-            <form>
+        <div class="bg-black text-white flex w-1/5 justify-center rounded">
+            <form action="https://getform.io/f/99a5dd2b-8888-4232-a0f7-bf52a2b95931" method="POST">
                 <div>
                     <h3>Contact me</h3>
                     <p>Mobile: +1 609 425 7758</p>
                     <p>Email: jppolini101@gmail.com</p>
                 </div>
-                <div class="text-black flex">
-                    <input type="text" placeholder="Your Name">
-                    <input type="email" placeholder="Your E-mail">
-                    <input type="text" placeholder="Phone Number">
-                    <textarea name="info" id="1" cols="30" rows="10"></textarea>
+                <div class="text-black flex flex-col m-2">
+                    <input type="text" placeholder="Your Name" class="mb-2" name="name">
+                    <input type="email" placeholder="Your E-mail" class="mb-2" name="email">
+                    <input type="text" placeholder="Phone Number" class="mb-2" name="phone">
+                    <textarea name="info" id="1" cols="30" rows="10" class="mb-2">
+When contacting me please include information such as:
+- Date and length of your stay
+- Are male or female
+- Single or couple
+- If you are a group, How many in your group and gender of each
+- How did you find us</textarea>
                     <button class="bg-white">Send Message</button>
                 </div>
             </form>
